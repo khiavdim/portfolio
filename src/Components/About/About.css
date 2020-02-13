@@ -1,44 +1,245 @@
 .About {
-    /* height: 100vh; */
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+  /* height: 100vh; */
+  width: 100vw;
+  /* position: fixed; */
+  margin-top: -150px;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(0,0,0,.3); */
 }
 
 .About_Header {
-    height: 50vh;
-    width: 100vw;
-    font-size: 50pt;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-left: 75px;
-    padding-bottom: 10px;
-    color: white;
+  height: 50vh;
+  width: 100vw;
+  font-size: 50pt;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 200px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.About_Header > div {
+  /* background: rgba(0,0,0,.2); */
+  position: relative;
+  top: 10px;
+  width: 100vw;
+  margin-left: -75px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .About_Info {
-    /* height: 100%; */
-    padding: 75px;
-    font-size: 18pt;
-    line-height: 30pt;  
-    background: white;
-    text-align: left;
-    letter-spacing: 0.5px;
-    display: flex;
+  /* height: 100%; */
+  /* border-top: #333333 1px solid; */
+  padding: 100px;
+  font-size: 14pt;
+  line-height: 20pt;
+  background: white;
+  text-align: left;
+  letter-spacing: 0.5px;
+  display: flex;
 }
 
 .About_Info > div {
-    width: 50%;
-    padding-right: 50px;
+  width: 50%;
+  padding-right: 50px;
+  margin: 0 auto;
 }
 
 .About_Left {
-    background: url(https://drive.google.com/uc?export=view&id=1N31yn4Zpp1sNKvrZOOSokbUcenVoImI9);
-    border-radius: 20%;
-    background-position: center center;
-    background-size: auto;
-    height: 300px;
-    width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile {
+  filter: grayscale(50%);
+  width: 400px;
+  height: auto;
+  padding-left: 50px;
+  animation-name: LeftFadeIn;
+  animation-delay: 0;
+  animation-duration: 1.5s;
+  }
+
+  @keyframes LeftFadeIn {
+    0% {
+      position: absolute;
+      left: 100px;
+      opacity: 0;
+    }
+  
+    100% {
+      position: absolute;
+      opacity: 1;
+      left: 220px;
+    }
+  }
+
+
+.Profile:hover {
+  filter: grayscale(10%);
+}
+
+.Footer {
+  width: 100vw;
+  height: 25vh;
+  background: url(https://drive.google.com/uc?export=view&id=1AFqhM2qrXF2an1hpqw1Y-BWGv4qxpMp2);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#linkedin:hover {
+  color: #0078b5;
+}
+#facebook:hover {
+  color: #4167b2;
+}
+#github:hover {
+  color: #99aab2;
+}
+
+#macha {
+  filter: grayscale(100%);
+}
+
+#macha:hover {
+  filter: grayscale(0%);
+}
+
+.social {
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.resume {
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.resume > span {
+  background: #a1a1a1;
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+
+.resume > span:hover {
+  background: #dddddd;
+}
+
+.middle {
+  height: 100%;
+  width: 1px;
+}
+
+.skills {
+  filter: grayscale(100%);
+  color: black important!;
+}
+.skills:hover {
+  filter: grayscale(0%);
+}
+
+.About_Right {
+  text-align: justify;
+  width: 100vw;
+  /* animation-name: LeftFadeIn;
+  animation-delay: 0;
+  animation-duration: 1.5s;
+  }
+
+  @keyframes LeftFadeIn {
+    0% {
+      position: absolute;
+      left: 100px;
+      opacity: 0;
+    }
+  
+    100% {
+      position: absolute;
+      opacity: 1;
+      left: 220px;
+    } */
+}
+
+.Footer_Angle {
+    transform: rotate(1.5deg); 
+    width: 100vw;
+    height: 50px;
+    top: 25px;
+    background: white; 
+    position: relative;
+}
+
+.Header_Angle {
+    transform: rotate(-1.5deg); 
+    width: 100vw;
+    height: 50px;
+    top: 25px;
+    background: white; 
+    position: relative;
+}
+
+
+.Footer_Inner {
+  width: 100%;
+  display: flex;
+  /* background: red; */
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.Footer_Inner {
+  line-height: 18pt;
+  font-size: 11pt;
+}
+
+.Footer_Menu {
+  /* line-height: 25pt; */
+  /* border-bottom: 1px solid white; */
+  /* text-decoration: underline; */
+  /* border-top: 1px solid gray; */
+  padding-bottom: 5px;
+  font-weight: 900;
+  color: gray;
+  font-size: 13pt;
+}
+
+
+.Footer_Social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Footer_Social:hover {
+    /* opacity: .6; */
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    @keyframes spin { 
+      from { 
+          transform: rotate(0deg); 
+      } to { 
+          transform: rotate(360deg); 
+      }
+  }
 }

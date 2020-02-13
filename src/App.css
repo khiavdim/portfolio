@@ -1,5 +1,5 @@
 .App {
-  background: url(https://drive.google.com/uc?export=view&id=1ICzhoYkAPKunWxM_XtOu0XBhnLJEYLxp);
+  background: url(https://drive.google.com/uc?export=view&id=1AFqhM2qrXF2an1hpqw1Y-BWGv4qxpMp2);
   background-position: center center;
   background-size: cover;
   width: 100vw;
@@ -8,57 +8,84 @@
 }
 
 .Nav {
-  position: fixed;
   width: 100vw;
-  margin-top: 6vh;
-  padding-left: 75px;
-  padding-right: 75px;
-  height: 6vh;
+  padding: 50px 50px 0px 65px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Logo_Nav {
-  width: 75%;
+  width: 4%;
+  height: 8vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   color: white;
+  /* background: red; */
+  overflow: visible
+}
+
+.Menu_Middle {
+  width: 71%;
 }
 
 .name {
-  padding-left: 18px;
-  font-size: 18pt;
+  padding-left: 100px;
+  font-size: 20pt;
+visibility: hidden;
+font-weight: 900;
+letter-spacing: .5pt;
+position: absolute;
 }
 
 .Menu {
   width: 25%;
   display: flex;
-  justify-content: space-around;
+  align-items: flex-end;
+  justify-content: space-between;
   font-size: 14pt;
-  margin-right: 200px;
+  margin-right: 150px;
   padding: 10px;
-  /* background: green; */
 }
 
-/* .Components {
-  padding-top: 10vh;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: red; */
-/* } */
+.Logo_Nav:hover .name {
+  visibility: visible;
+  /* opacity: 0; */
+  animation-name: leftFadeInOut;
+  animation-delay: 0;
+  animation-duration: 1s;
+  /* visibility: hidden; */
+  }
+
+  @keyframes leftFadeInOut {
+    0% {
+      position: absolute;
+      left: 0px;
+      opacity: 0;
+    }
+  
+    100% {
+      position: absolute;
+      opacity: 1;
+      left: 65px;
+    }
+  }
+
 
 .Title {
   width: 100vw;
-  height: 100vh;
+  height: yes;
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 75px;
   color: white;
+  /* background: red; */
+  bottom: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .Title > div:nth-child(2) {

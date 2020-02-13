@@ -8,7 +8,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <Navigation/>
-      <div className="Components">{routes}</div>
+      <div>{routes}</div>
     </div>
   );
   }
