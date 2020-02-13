@@ -1,22 +1,103 @@
 .App {
-  text-align: center;
+  background: url(https://drive.google.com/uc?export=view&id=1ICzhoYkAPKunWxM_XtOu0XBhnLJEYLxp);
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Varela", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
+  position: fixed;
+  width: 100vw;
+  margin-top: 6vh;
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 6vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.Logo_Nav {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.name {
+  padding-left: 18px;
+  font-size: 18pt;
+}
+
+.Menu {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14pt;
+  margin-right: 200px;
+  padding: 10px;
+  /* background: green; */
+}
+
+/* .Components {
+  padding-top: 10vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red; */
+/* } */
+
+.Title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 75px;
+  color: white;
+}
+
+.Title > div:nth-child(2) {
+  width: 35%;
+  font-size: 50pt;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.Title > div:first-child {
+  width: 35%;
+  font-size: 15pt;
+  line-height: 30pt;
+  letter-spacing: 0.5px;
+}
+
+.Title > div:last-child {
+  width: 35%;
+  font-size: 15pt;
+  line-height: 20pt;
+  letter-spacing: 0.5px;
+  padding-bottom: 75px;
+}
+
+a:visited,
+a:hover,
+a:link,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  padding: 0px 10px 7px 10px;
+}
+.link:hover {
+  border-bottom: white solid 2px;
 }
