@@ -22,83 +22,63 @@ export default function About() {
           {/* <div className="middle"></div> */}
           <div className="About_Right">
             <p>
-              My name is KhiavDim Lee.<br></br>Pronounced like 'Kia' (the car
-              brand) and the letter D.
+              My name is KhiavDim Lee.<br></br>Pronounced 'Kia' (the car brand)
+              and the letter D.
             </p>
             <br></br>
             <p className="skills">
               I am a full stack web developer and graphic designer based in
-              Fresno, California. I became certified through DevMountain having
-              completed their web development program. I am proficient in
-              <span style={{ color: "#d3ba00" }}>
-                <strong> Javascript</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#006db2" }}>
-                <strong>CSS</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#eb6228" }}>
-                <strong>HTML</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#56bad3" }}>
-                <strong>React</strong>
-              </span>
-              /
-              <span style={{ color: "#7248B7" }}>
-                <strong>Redux</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#87bf00" }}>
-                <strong>Nodejs</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#31648D" }}>
-                <strong>PostgresSQL</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#26c6f8" }}>
-                <strong>Photoshop</strong>
-              </span>
-              ,{" "}
-              <span style={{ color: "#F77903" }}>
-                <strong>Illustrator</strong>
-              </span>{" "}
-              and various{" "}
-              <span style={{ color: "#EC0B12" }}>
-                <strong>Creative Suite</strong>
-              </span>{" "}
-              programs.
+              California. Before that, I was working as a medical biller because
+              I thought coding was way too hard for my brain to handle. However,
+              I am so glad that I took that leap. I became certified through
+              DevMountain having completed their immersive web development
+              program.
             </p>
             <br></br>
             <p>
-              Apart from coding, My hobbies include cooking, DIY, and music. I
-              love spending the rest of my time with my family or volunteering
-              at my local church. I'm also the creator of machamacha Kids, a
-              YouTube kids channel. Lastly, I believe that memes are the most
-              effective way to communicate.
+              Apart from coding, you'd probably find me cooking, DIYing around
+              the house, or shopping. I love spending the rest of my time with
+              my family or volunteering at my local church. I'm also the creator
+              of{" "}
+              <a
+                href="http://youtube.com/machamachakids/"
+                target="new"
+                className="skills"
+              >
+                <span style={{ color: "#E30E0E" }}>macha</span>
+                <span style={{ color: "#0390ff" }}>macha</span>{" "}
+                <span style={{ color: "#54A51E" }}>kids</span>
+              </a>
+              , a YouTube kids channel. Lastly, I believe that memes are the
+              most effective way to communicate.
             </p>
             <div className="resume">
-              <span>View My Resume</span>
+              <span>
+                <i class="far fa-file">  </i>  View My Resume
+              </span>
             </div>
             <p></p>
             <div className="social">
               <div></div>
               <div>
-                <i className="fab fa-linkedin fa-2x" id="linkedin"></i>
+                <i className="fab fa-linkedin-in" id="linkedin">
+                  <span>linkedin</span>
+                </i>
               </div>
               <div>
-                <i className="fab fa-github-square fa-2x" id="github"></i>
+                <i className="fab fa-github-alt" id="github">
+                  <span>github</span>
+                </i>
               </div>
               <div>
-                <i className="fab fa-facebook-square fa-2x" id="facebook"></i>
+                <i className="fab fa-dribbble" id="dribbble">
+                  <span>dribbble</span>
+                </i>
               </div>
-              <div id="macha">
-                <img
-                  src="https://drive.google.com/uc?export=view&id=1qPms9dowwCBfgm0u-c0ZAecEuKphZuWT"
-                  width="250"
-                ></img>
+              <div>
+                <i className="fab fa-facebook-f" id="facebook">
+                  <span>facebook</span>
+                </i>
               </div>
               <div></div>
             </div>
@@ -126,15 +106,21 @@ export default function About() {
             </p>
             <p>About</p>
             <p>Projects</p>
+            <p>Skills</p>
             <p>Contact</p>
           </div>
           <div>
             <div>
-              <i className="fab fa-linkedin-in fa-lg" id="Footer_Social"></i>{" "}
+              <i className="fab fa-linkedin-in" id="Footer_Linked"></i>{" "}
               &emsp;&emsp;
               <i className="fab fa-github fa-lg" id="Footer_Social"></i>{" "}
-              &emsp;&emsp;
+              &emsp;&emsp;&emsp;
+              <i className="fab fa-dribbble" id="Footer_Social"></i>{" "}
+              &emsp;&emsp;&emsp;
               <i className="fab fa-facebook fa-lg" id="Footer_Social"></i>
+            </div>
+            <div>
+              <i class="fas fa-phone-alt"></i> (650) 382-3258‬
             </div>
           </div>
           <div></div>

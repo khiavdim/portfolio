@@ -25,6 +25,9 @@ export default function Navigation() {
         <Link to="/projects">
           <span className="link">Projects</span>
         </Link>
+        <Link to="/skills">
+          <span className="link">Skills</span>
+        </Link>
         <Link to="/connect">
           <span className="link">Connect</span>
         </Link>

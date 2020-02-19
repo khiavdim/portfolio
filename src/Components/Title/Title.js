@@ -7,13 +7,11 @@ export default function Title() {
       <div>Hello. My name is</div>
       <div>KhiavDim Lee</div>
       <div>
-        <p>I'm a graphic designer and full stack web developer specializing in
-        Javascript (React, Redux, Node, Express), HTML, CSS, and PostgresSQL.
+        <p>I'm a full stack web developer and graphic designer.
       </p>
       &emsp;
       <p>
-        I am proficient in Photoshop, Illustrator, InDesign, Acrobat and other
-        various Creative Suite programs.
+        Don't worry. Saying my name correctly is easier than you think.
         </p>
       </div>
     </div>
